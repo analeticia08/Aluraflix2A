@@ -12,3 +12,10 @@ body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
 }
+
+.principal{
+    background-image: url(Background.png);
+}
+.container{
+    height:100vh ;
+}
