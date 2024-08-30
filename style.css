@@ -3,6 +3,7 @@
     --cinza-secundario: #C0c0c0;
     --botao-azul:#165bf7;
     --cor-de-fundo:#00030c; 
+    --fonte-principal: "Montserrat"
 }
 *{
     margin: 0;
@@ -21,10 +22,19 @@ body{
 
 .container{
     height:100vh ;
+    display: grid;
+    grid-template-columns: 30% 70%;
 }
 
 .container_botão{
    background-color:var(--botao-azul);
    color:var(--branco-principal);
    border-radius: 5px;
+   padding: 1em;
+   display: block;
+}
+
+.botão2{
+    background-color: transparent;
+    border: 2px solid rgb(255, 253, 253);
 }
